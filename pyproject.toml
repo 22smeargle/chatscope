@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "chatscope"
 version = "1.0.0"
 authors = [
-    {name = "Your Name", email = "your.email@example.com"},
+    {name = "22wojciech", email = "wojciech@example.com"},
 ]
 description = "Analyze and categorize ChatGPT conversation exports using OpenAI API"
 readme = "README.md"
@@ -50,17 +50,17 @@ all = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/yourusername/chatscope"
-"Bug Reports" = "https://github.com/yourusername/chatscope/issues"
-"Source" = "https://github.com/yourusername/chatscope"
-"Documentation" = "https://github.com/yourusername/chatscope#readme"
+"Homepage" = "https://github.com/22wojciech/chatscope"
+"Bug Reports" = "https://github.com/22wojciech/chatscope/issues"
+"Source" = "https://github.com/22wojciech/chatscope"
+"Documentation" = "https://github.com/22wojciech/chatscope#readme"
 
 [project.scripts]
-chatscope = "chatgpt_analyzer.cli:main"
+chatscope = "chatscope.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["."]  # list of folders that contain the packages (["src"] by default)
-include = ["chatgpt_analyzer*"]  # package names should match these glob patterns (["*"] by default)
+include = ["chatscope*"]  # package names should match these glob patterns (["*"] by default)
 exclude = ["tests*"]  # exclude packages matching these glob patterns
 
 [tool.black]

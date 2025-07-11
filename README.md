@@ -1,4 +1,4 @@
-# ChatGPT Analyzer
+# 🔍 ChatScope
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -34,7 +34,7 @@ pip install chatscope[plotting]
 ### Development Installation
 
 ```bash
-git clone https://github.com/yourusername/chatscope.git
+git clone https://github.com/22wojciech/chatscope.git
 cd chatscope
 pip install -e .[dev]
 ```
@@ -66,7 +66,7 @@ export OPENAI_API_KEY="your_openai_api_key_here"
 #### Using Python API
 
 ```python
-from chatgpt_analyzer import ChatGPTAnalyzer
+from chatscope import ChatGPTAnalyzer
 
 # Initialize analyzer
 analyzer = ChatGPTAnalyzer()
@@ -99,7 +99,7 @@ chatscope conversations.json --no-show
 ### Custom Categories
 
 ```python
-from chatgpt_analyzer import ChatGPTAnalyzer
+from chatscope import ChatGPTAnalyzer
 
 custom_categories = [
     "Work",

@@ -15,13 +15,18 @@ with open(os.path.join(this_directory, 'requirements.txt'), encoding='utf-8') as
 setup(
     name="chatscope",
     version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="22wojciech",
+    author_email="wojciech@example.com",
     description="Analyze and categorize ChatGPT conversation exports using OpenAI API",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/chatscope",
+    url="https://github.com/22wojciech/chatscope",
     packages=find_packages(),
+    entry_points={
+        'console_scripts': [
+            'chatscope=chatscope.cli:main',
+        ],
+    },
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
@@ -51,15 +56,11 @@ setup(
             "matplotlib>=3.5.0",
         ],
     },
-    entry_points={
-        "console_scripts": [
-            "chatscope=chatgpt_analyzer.cli:main",
-        ],
-    },
+
     keywords="chatgpt openai conversation analysis categorization nlp",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/chatscope/issues",
-        "Source": "https://github.com/yourusername/chatscope",
-        "Documentation": "https://github.com/yourusername/chatscope#readme",
+        "Bug Reports": "https://github.com/22wojciech/chatscope/issues",
+        "Source": "https://github.com/22wojciech/chatscope",
+        "Documentation": "https://github.com/22wojciech/chatscope#readme",
     },
 )
