@@ -4,19 +4,19 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "chatscope"
-version = "1.0.1"
+version = "1.0.2"
 authors = [
     {name = "22wojciech", email = "plus4822@icloud.com"},
 ]
 description = "Analyze and categorize ChatGPT conversation exports using OpenAI API"
 readme = "README.md"
-license = {text = "MIT"}
+license = {text = "Custom Non-Commercial License (CNCL) v1.0"}
 requires-python = ">=3.8"
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
     "Intended Audience :: End Users/Desktop",
-    "License :: OSI Approved :: MIT License",
+    "License :: Other/Proprietary License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",

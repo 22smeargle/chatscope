@@ -1,7 +1,7 @@
 # 🔍 ChatScope
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CNCL](https://img.shields.io/badge/License-CNCL-red.svg)](https://github.com/22wojciech/chatscope/blob/main/LICENSE)
 [![PyPI version](https://badge.fury.io/py/chatscope.svg)](https://badge.fury.io/py/chatscope)
 
 **Discover the scope of your conversations**
@@ -292,7 +292,9 @@ flake8 chatscope/
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Custom Non-Commercial License (CNCL) v1.0 - see the [LICENSE](https://github.com/22wojciech/chatscope/blob/main/LICENSE) file for details.
+
+**⚠️ Important:** This software is free for personal, academic, and research use only. Commercial use requires a separate license. Contact plus4822@icloud.com for commercial licensing.
 
 ## Changelog
 
