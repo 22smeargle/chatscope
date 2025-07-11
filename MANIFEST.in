@@ -1,0 +1,15 @@
+include README.md
+include LICENSE
+include requirements.txt
+include pyproject.toml
+recursive-include chatgpt_analyzer *.py
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+prune tests
+prune .git
+prune .github
+exclude .gitignore
+exclude .env
+exclude *.png
+exclude *.json
+exclude conversations_example.json
