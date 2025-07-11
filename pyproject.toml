@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "chatscope"
 version = "1.0.0"
 authors = [
-    {name = "22wojciech", email = "wojciech@example.com"},
+    {name = "22wojciech", email = "plus4822@icloud.com"},
 ]
 description = "Analyze and categorize ChatGPT conversation exports using OpenAI API"
 readme = "README.md"

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Test script to verify the chatgpt_analyzer library functionality.
+Test script to verify the chatscope library functionality.
 """
 
 import os
-from chatgpt_analyzer import ChatGPTAnalyzer
-from chatgpt_analyzer.exceptions import ChatGPTAnalyzerError
+from chatscope import ChatGPTAnalyzer
+from chatscope.exceptions import ChatGPTAnalyzerError
 
 def test_basic_functionality():
     """Test basic library functionality without API calls."""

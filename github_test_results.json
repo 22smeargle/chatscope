@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-07-11T22:05:27.827218",
+  "total_conversations": 3,
+  "categories": {
+    "Programming": [
+      "Python Data Analysis Tutorial"
+    ],
+    "Artificial Intelligence": [
+      "Machine Learning Basics"
+    ],
+    "Psychology / Personal Development": [
+      "Meditation and Mindfulness"
+    ],
+    "Philosophy": [],
+    "Astrology / Esoteric": [],
+    "Work / Career": [],
+    "Health": [],
+    "Education": [],
+    "Other": []
+  },
+  "counts": {
+    "Programming": 1,
+    "Artificial Intelligence": 1,
+    "Psychology / Personal Development": 1,
+    "Philosophy": 0,
+    "Astrology / Esoteric": 0,
+    "Work / Career": 0,
+    "Health": 0,
+    "Education": 0,
+    "Other": 0
+  },
+  "analyzer_version": "1.0.0"
+}

@@ -1,12 +1,12 @@
 """Legacy script for backward compatibility.
 
 This script provides the same functionality as before but now uses
-the chatgpt_analyzer library internally.
+the chatscope library internally.
 """
 
 import logging
-from chatgpt_analyzer import ChatGPTAnalyzer
-from chatgpt_analyzer.exceptions import ChatGPTAnalyzerError
+from chatscope import ChatGPTAnalyzer
+from chatscope.exceptions import ChatGPTAnalyzerError
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -27,7 +27,7 @@ class LegacyChatGPTAnalyzer:
         """Main analysis pipeline - delegates to the new library."""
         try:
             results = self.analyzer.analyze(input_file)
-            logger.info("Analysis completed successfully using chatgpt_analyzer library!")
+            logger.info("Analysis completed successfully using chatscope library!")
             return results
         except ChatGPTAnalyzerError as e:
             logger.error(f"Analysis failed: {e}")
@@ -40,7 +40,7 @@ def main():
     """Main function to run the analysis."""
     import sys
     
-    print("Note: This script now uses the chatgpt_analyzer library internally.")
+    print("Note: This script now uses the chatscope library internally.")
     print("For more features, consider using the library directly or the CLI tool.")
     print("Run 'pip install -e .' to install the library, then use 'chatscope --help'\n")
     

@@ -229,7 +229,8 @@ A bar chart showing the distribution of conversations across categories.
 The library includes comprehensive error handling:
 
 ```python
-from chatgpt_analyzer import ChatGPTAnalyzer, APIError, DataError
+from chatscope import ChatGPTAnalyzer
+from chatscope.exceptions import ChatGPTAnalyzerError
 
 try:
     analyzer = ChatGPTAnalyzer()
@@ -285,8 +286,8 @@ pytest
 ### Code Formatting
 
 ```bash
-black chatgpt_analyzer/
-flake8 chatgpt_analyzer/
+black chatscope/
+flake8 chatscope/
 ```
 
 ## License

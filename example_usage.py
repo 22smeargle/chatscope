@@ -2,8 +2,8 @@
 """Example usage of ChatGPT Analyzer library."""
 
 import os
-from chatgpt_analyzer import ChatGPTAnalyzer
-from chatgpt_analyzer.exceptions import ChatGPTAnalyzerError
+from chatscope import ChatGPTAnalyzer
+from chatscope.exceptions import ChatGPTAnalyzerError
 
 
 def basic_example():
