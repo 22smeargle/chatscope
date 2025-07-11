@@ -31,7 +31,7 @@ Examples:
   %(prog)s -i conversations.json -o results.png --no-show
   %(prog)s --api-key sk-... --batch-size 10 conversations.json
 
-For more information, visit: https://github.com/yourusername/chatscope
+For more information, visit: https://github.com/22wojciech/chatscope
 """
     )
     
