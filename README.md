@@ -4,7 +4,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PyPI version](https://badge.fury.io/py/chatscope.svg)](https://badge.fury.io/py/chatscope)
 
-A Python library for analyzing and categorizing ChatGPT conversation exports using OpenAI's API. This tool helps you understand your ChatGPT usage patterns by automatically categorizing your conversations into topics like Programming, AI, Psychology, Philosophy, and more.
+**Discover the scope of your conversations**
+
+A powerful Python library for analyzing and categorizing ChatGPT conversation exports using OpenAI's API. This tool helps you understand your ChatGPT usage patterns by automatically categorizing your conversations into topics like Programming, AI, Psychology, Philosophy, and more.
 
 ## Features
 
