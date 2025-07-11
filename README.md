@@ -272,7 +272,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ### Development Setup
 
 ```bash
-git clone https://github.com/yourusername/chatscope.git
+git clone https://github.com/22wojciech/chatscope.git
 cd chatscope
 pip install -e .[dev]
 ```
@@ -308,7 +308,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you encounter any issues or have questions:
 
-1. Check the [Issues](https://github.com/yourusername/chatscope/issues) page
+1. Check the [Issues](https://github.com/22wojciech/chatscope/issues) page
 2. Create a new issue with detailed information
 3. Include your Python version, OS, and error messages
 
