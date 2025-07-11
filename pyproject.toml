@@ -10,6 +10,7 @@ authors = [
 ]
 description = "Analyze and categorize ChatGPT conversation exports using OpenAI API"
 readme = "README.md"
+license = {text = "MIT"}
 requires-python = ">=3.8"
 classifiers = [
     "Development Status :: 4 - Beta",
