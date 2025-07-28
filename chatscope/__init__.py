@@ -1,19 +1,15 @@
-"""ChatGPT Conversation Analyzer
-
-A Python library for analyzing and categorizing ChatGPT conversation exports.
-"""
+"""ChatScope - Analyze and categorize ChatGPT conversation exports."""
 
 from .analyzer import ChatGPTAnalyzer
-from .exceptions import ChatGPTAnalyzerError, APIError, DataError
+from .advanced_analyzer import AdvancedChatGPTAnalyzer
+from .exceptions import ChatGPTAnalyzerError, APIError, DataError, ConfigurationError
 
-__version__ = "1.0.0"
-__author__ = "Your Name"
-__email__ = "your.email@example.com"
-__description__ = "Analyze and categorize ChatGPT conversation exports using OpenAI API"
-
+__version__ = "2.0.0"
 __all__ = [
-    "ChatGPTAnalyzer",
-    "ChatGPTAnalyzerError",
-    "APIError",
-    "DataError",
+    "ChatGPTAnalyzer", 
+    "AdvancedChatGPTAnalyzer",
+    "ChatGPTAnalyzerError", 
+    "APIError", 
+    "DataError", 
+    "ConfigurationError"
 ]
