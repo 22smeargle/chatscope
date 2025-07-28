@@ -1335,7 +1335,7 @@ For feature requests, please provide:
 
 ## 📋 Changelog
 
-### Version 2.0.0 (2024-01-XX)
+### Version 2.0.0
 
 **🎉 Major Release - Advanced Analytics**
 
@@ -1363,7 +1363,7 @@ For feature requests, please provide:
 - Added advanced visualization capabilities
 - Enhanced CLI with `chatscope-advanced` command
 
-### Version 1.0.2 (2023-12-XX)
+### Version 1.0.2
 
 **Bug Fixes:**
 - Fixed issue with empty conversation titles
@@ -1375,7 +1375,7 @@ For feature requests, please provide:
 - Better progress indicators
 - Improved documentation
 
-### Version 1.0.1 (2023-11-XX)
+### Version 1.0.1
 
 **Bug Fixes:**
 - Fixed installation issues with optional dependencies
@@ -1415,7 +1415,7 @@ For feature requests, please provide:
 
 ### Commercial Support
 
-For commercial support, custom development, or enterprise features, please contact us at [support@chatscope.dev](mailto:support@chatscope.dev).
+For commercial support, custom development, or enterprise features, please contact us at [support@chatscope.dev](mailto:plus4822@icloud.com).
 
 ## 📄 License
 
@@ -1434,6 +1434,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ by the ChatScope team**
+**Made with ❤️ in Warsaw**
 
 *Transform your ChatGPT conversations into actionable insights!*
