@@ -8,6 +8,22 @@
 
 ChatScope is a powerful Python library that transforms your ChatGPT conversation exports into actionable insights through advanced analytics, sentiment analysis, topic modeling, and temporal pattern detection.
 
+## 📚 Documentation
+
+**Complete documentation is available at: [https://22smeargle.github.io/chatscope/](https://22smeargle.github.io/chatscope/)**
+
+### Quick Links
+- **[📖 Online Documentation](https://22smeargle.github.io/chatscope/)** - GitHub Pages site
+- **[🔧 API Reference](https://22smeargle.github.io/chatscope/API_REFERENCE.html)** - Complete API documentation
+- **[📋 User Guide](https://22smeargle.github.io/chatscope/USER_GUIDE.html)** - Comprehensive usage guide
+- **[💡 Examples](https://22smeargle.github.io/chatscope/EXAMPLES.html)** - Practical code examples
+
+### Local Documentation
+You can also browse the documentation locally in the [docs](docs/) directory:
+- [API Reference](docs/API_REFERENCE.md)
+- [User Guide](docs/USER_GUIDE.md)
+- [Examples](docs/EXAMPLES.md)
+
 ## 🚀 What's New in Version 2.0
 
 - **🧠 Advanced Sentiment Analysis** - Emotion detection and polarity analysis

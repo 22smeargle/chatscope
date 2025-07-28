@@ -1,0 +1,83 @@
+# Jekyll configuration for ChatScope documentation
+title: ChatScope Documentation
+description: Advanced ChatGPT conversation analysis and insights
+baseurl: "/chatscope"
+url: "https://22smeargle.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - API_REFERENCE.md
+  - USER_GUIDE.md
+  - EXAMPLES.md
+
+# Social links
+github_username: 22smeargle
+
+# SEO settings
+author:
+  name: 22smeargle
+  email: plus4822@icloud.com
+
+social:
+  name: ChatScope
+  links:
+    - https://github.com/22smeargle/chatscope
+    - https://pypi.org/project/chatscope/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Markdown settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "page"
+
+# Custom variables
+chatscope:
+  version: "2.0.0"
+  python_version: "3.8+"
+  github_repo: "https://github.com/22smeargle/chatscope"
+  pypi_package: "https://pypi.org/project/chatscope/"
